@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>testimonials page</title>
+  <link rel="stylesheet" href="testimonials.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="mySlides">
+                        <div class="col-sm-6">
+                             <img src="img/c5.png" alt="" id="mg" >
+                        </div>
+                        <div class="col-sm-6">
+                        <p><span>1/3. What's our Jobseekers Said.</span></p>
+                        <p>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores."</p>
+                        <h1>Erik Shannon</h1>
+                        <p>React Developer</p>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="col-sm-6">
+                            <img src="img/c4.png" alt="" id="mg" >
+                        </div>
+                        <div class="col-sm-6">
+                        <p><span>2/2. What's our Jobseekers Said.</span></p>
+                        <p>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores."</p>
+                        <h1>James Gosling</h1>
+                        <p>Java Developer</p>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="col-sm-6">
+                            <img src="img/c3.png" alt="" id="mg" >
+                        </div>
+                        <div class="col-sm-6">
+                            <p><span>3/3. What's our Jobseekers Said.</span></p>
+                            <p>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores."</p>
+                            <h1>Bjarne Stroustrup</h1>
+                            <p>C++ Developer</p>
+                       </div>
+                    </div>
+                    <button class="btn-left" onclick="plusDivs(-1)"><img src="img/Group-6017.svg" alt=""></button>
+                    <button class="btn-right" onclick="plusDivs(1)"><img src="img/Group-6018.svg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+    </body>
+</html>

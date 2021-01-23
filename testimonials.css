@@ -1,0 +1,32 @@
+.container{
+    padding: 80px;
+}
+#mg{
+    width: 500px;
+    height: 500px;
+}
+  p span{
+    color: var(--unnamed-color-181818);
+    text-align: left;
+    font: normal normal bold 70px/100px Inter;
+    letter-spacing: 1.12px;
+    color: #181818;
+    opacity: 1;
+  }
+  p{
+    text-align: left;
+    font: normal normal normal 22px/33px Inter;
+    letter-spacing: 0.44px;
+    color: #747474;
+    opacity: 1;
+  }
+  button{
+      border: none;
+  }
+  .btn{
+    text-align: center;    
+    width: 1300px;  
+    height: 1300px;  
+    
+  }
+  

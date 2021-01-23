@@ -1,0 +1,109 @@
+body{
+    font-family: 'Nunito', sans-serif;
+  }
+h1{
+color: var(--unnamed-color-181818);
+text-align: center;
+font: normal normal bold 60px/72px Inter;
+letter-spacing: 0.84px;
+color: #181818;
+opacity: 1;
+}
+p{
+text-align: left;
+font: normal normal normal 10px/15px Intr;
+letter-spacing: 0.4px;
+color: #747474;
+
+}  
+  .card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 20px #7474741A;
+    opacity: 1;
+    padding: 80px 80px 36px 36px;
+    cursor: pointer;
+  }
+  
+  .card:hover{
+       transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+  
+  .card img{
+    position: absolute;
+    padding: 10px;
+    margin: 10px 20px;
+    box-sizing: border-box;
+  }
+  
+  .card-1{
+   
+    margin: 10px 10px;
+    padding: 50px;
+    padding-left: 10px;
+    background: transparent url('img/001-vector-design.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .card-2{
+    margin: 10px 10px;
+    padding: 50px;
+    padding-left: 10px;
+    background: transparent url('img/002-flask.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .card-3{
+    margin: 10px 10px;
+    padding: 50px;
+    padding-left: 10px;
+    background: transparent url('img/004-desk.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .card-4{
+    margin: 10px 10px;
+    padding: 50px;
+    padding-left: 10px;
+    background: transparent url('img/003-office-building.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .card-5{
+    margin: 10px 10px;
+    padding: 50px;
+    padding-left: 10px;
+    background: transparent url('img/006-briefcase.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .card-6{
+    margin: 10px 10px;
+    padding: 50px;
+    padding-left: 10px;
+    background: transparent url('img/005-clipboard.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+ 
+  .button {
+    background-color: #1C2333;
+    border: none;
+    color: white;
+    padding: 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 650px;
+    cursor: pointer;
+    border-radius:27px;
+  }
+  .button:hover {
+    background-color: #1C2333;
+    color: white;
+    column-rule-color: white;
+    border: none;
+  }
+  .primary{
+      background-color:#1C2333 ;
+  }
+  #category{
+    display: none;
+}
